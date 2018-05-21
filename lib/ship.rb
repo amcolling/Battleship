@@ -8,6 +8,11 @@ class Ship
     @destroyer = [1,1]
   end
 
+  def place_ship
+    if player.guess <=2 
+
+
+
   def
 
 

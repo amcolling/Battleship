@@ -5,14 +5,7 @@ class Player
     @guess = gets.chomp
   end
 
-  def miss(board)
-    gameboard = GameBoard.new
-    if @guess == gameboard.values('*')
-      puts "hit"
-    elsif
-      puts "miss"
-    end
-  end
+  
 
 
 

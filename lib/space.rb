@@ -1,7 +1,10 @@
 class Space
+  attr_reader :position,
+              :status
 
-  def initialize
-  
+  def initialize(position, status = "")
+    @position = position
+    @status = status
   end
 
 

@@ -8,7 +8,7 @@ require './lib/space.rb'
 
 class SpaceTest < Minitest::Test
   def test_spaces
-    space = Space.new
+    space = Space.new('A1')
     assert_instance_of Space, space
   end
 

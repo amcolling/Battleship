@@ -28,9 +28,24 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
         1,
+        null,
+        null,
         1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -43,9 +58,12 @@
       ],
       "/Users/angicolling/classwork/battleship/lib/space.rb": [
         1,
-        null,
         1,
         null,
+        null,
+        1,
+        17,
+        17,
         null,
         null,
         null,
@@ -56,6 +74,6 @@
         null
       ]
     },
-    "timestamp": 1526932420
+    "timestamp": 1526942879
   }
 }
