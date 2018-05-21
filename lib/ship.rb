@@ -4,11 +4,11 @@ class Ship
               :destroyer
 
   def initialize
-    @carrier = [0, 0, 0]
-    @destroyer = [0,0]
+    @carrier = [1, 1, 1]
+    @destroyer = [1,1]
   end
 
-  def 
+  def
 
 
 

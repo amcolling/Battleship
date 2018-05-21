@@ -1,9 +1,10 @@
 class Space
 
-  def miss
-    if gameboard.board == '*'
-      
-    elsif gameboard.board = ''
+  def initialize
+  
+  end
+
+
 
 
 
