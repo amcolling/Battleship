@@ -3,17 +3,17 @@ class Ship
   attr_reader :carrier,
               :destroyer
 
-  def initialize
-    @carrier = [1, 1, 1]
-    @destroyer = [1,1]
+  def initialize(ship)
+    @carrier = ship
+    @destroyer = ship
   end
 
-  def place_ship
-    if player.guess <=2 
 
 
 
-  def
+
+
+  
 
 
 

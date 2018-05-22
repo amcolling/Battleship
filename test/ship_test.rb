@@ -5,12 +5,12 @@ require './lib/ship.rb'
 
 class ShipTest < Minitest::Test
   def test_it_exists
-    ship = Ship.new
+    ship = Ship.new("Destroyer")
     assert_instance_of Ship, ship
   end
 
   def test_count_ship_pegs
-    ship = Ship.new
+    ship = Ship.new("Carrier")
     assert ship.destroyer.length <= 2
     assert ship.carrier.length <= 3
     assert_instance_of Array, ship.carrier

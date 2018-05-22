@@ -1,7 +1,7 @@
 # require './lib/dialogue.rb'
 require './test/test_helper.rb'
 require './lib/gameboard.rb'
-# require './lib/ship.rb'
+require './lib/ship.rb'
 require './lib/space.rb'
 
 class GameBoardTest < Minitest::Test

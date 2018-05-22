@@ -24,11 +24,13 @@ class GameBoard
               [@B1, @B2, @B3, @B4],
               [@C1, @C2, @C3, @C4],
               [@D1, @D2, @D3, @D4]]
+
+    @ship = Ship.new("carrier")
   end
 
 
   def gameboard_display
-  "  =================
+  "  ===================
         1   2   3   4
     A  #{@A1.status} #{@A2.status} #{@A3.status} #{@A4.status}
 
@@ -38,7 +40,12 @@ class GameBoard
 
     D  #{@D1.status} #{@D2.status} #{@D3.status} #{@D4.status}
     ==================="
-binding.pry
+  end
+
+  def ship_placed
+    if @ship == 
+
+    end
   end
 
 
