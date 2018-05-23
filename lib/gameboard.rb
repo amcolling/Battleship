@@ -30,7 +30,7 @@ class GameBoard
 
 
   def gameboard_display
-    puts  "    ===================
+    puts "===================
         1   2   3   4
     A  #{@A1.status} #{@A2.status} #{@A3.status} #{@A4.status}
 

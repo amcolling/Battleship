@@ -14,6 +14,6 @@ class GameBoardTest < Minitest::Test
   def test_gameboard_display
     gameboard = GameBoard.new
     space = Space.new('A1')
-    assert_equal nil, gameboard.gameboard_display
+    assert_nil gameboard.gameboard_display
   end
 end

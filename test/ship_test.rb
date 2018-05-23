@@ -22,8 +22,8 @@ class ShipTest < Minitest::Test
 
   def test_ship_sunk?
     ship = Ship.new(3)
-    assert_instance_of Integer, ship.ship_sunk?
-  end 
+    assert_equal false, ship.ship_sunk?
+  end
 
 
 

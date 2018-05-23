@@ -1,12 +1,12 @@
 class Player
   attr_reader :guess
 
-  def initialize(gameboard)
+  def initialize
     @guess = gets.chomp
   end
 
-  def fire_at
-    if @guess == A1[0] 
+
+
 
 
 
