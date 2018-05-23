@@ -1,6 +1,7 @@
 class Computer
 
-  def random_pick(grid)
-  grid.sample
+  def random_pick
+    gameboard = GameBoard.new
+    gameboard.grid.sample
   end
 end

@@ -2,6 +2,7 @@ require './lib/dialogue.rb'
 require './test/test_helper.rb'
 require './lib/gameboard.rb'
 require './lib/ship.rb'
+require './lib/space.rb'
 
 class ShipTest < Minitest::Test
   def test_it_exists
@@ -9,13 +10,22 @@ class ShipTest < Minitest::Test
     assert_instance_of Ship, ship
   end
 
-  def test_count_ship_pegs
-    ship = Ship.new(2)
-    space = Space.new('A1')
-    assert ship.destroyer.length <= 2
-    assert ship.carrier.length <= 3
-    assert_instance_of Array, ship.carrier
-    assert_instance_of Array, ship.destroyer
-    assert_equal '', ship.count_ship_pegs
+  def test_ship_placed
+    ship = Ship.new(3)
+    assert_equal "A2", ship.ship_placed("A1", "A2")
   end
+
+  def test_hit
+    ship = Ship.new(3)
+    assert_instance_of Integer, ship.hit
+  end
+
+  def test_ship_sunk?
+    ship = Ship.new(3)
+    assert_instance_of Integer, ship.ship_sunk?
+  end 
+
+
+
+
 end

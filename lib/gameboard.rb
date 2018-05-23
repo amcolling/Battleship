@@ -1,4 +1,3 @@
-require 'pry'
 class GameBoard
   attr_reader :grid
 
@@ -43,17 +42,4 @@ class GameBoard
     ==================="
 
   end
-
-
-
-
-
-
-
-
-
-
-
-
-
 end

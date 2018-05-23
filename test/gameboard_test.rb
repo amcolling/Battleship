@@ -1,4 +1,3 @@
-# require './lib/dialogue.rb'
 require './test/test_helper.rb'
 require './lib/gameboard.rb'
 require './lib/ship.rb'
@@ -15,16 +14,6 @@ class GameBoardTest < Minitest::Test
   def test_gameboard_display
     gameboard = GameBoard.new
     space = Space.new('A1')
-    assert_equal "", gameboard.gameboard_display
+    assert_equal nil, gameboard.gameboard_display
   end
-
-  def test_ship_placed
-    gameboard = GameBoard.new
-    space = Space.new
-    assert_equal '', gameboard.ship_placed
-  end
-
-
-
-
 end
