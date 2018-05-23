@@ -9,4 +9,10 @@ class ComputerTest < Minitest::Test
     computer = Computer.new
     assert_instance_of Computer, computer
   end
+
+  def test_random_pick
+    computer = Computer.new
+    gameboard = GameBoard.new
+    assert_equal "", computer.random_pick
+  end
 end

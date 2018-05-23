@@ -25,7 +25,7 @@ class GameBoard
               [@C1, @C2, @C3, @C4],
               [@D1, @D2, @D3, @D4]]
 
-    @ship = Ship.new("carrier")
+    @ship = Ship.new(2)
     @occupied = false
   end
 
@@ -44,7 +44,7 @@ class GameBoard
 
   end
 
-  
+
 
 
 

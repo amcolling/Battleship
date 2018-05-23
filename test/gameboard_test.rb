@@ -3,6 +3,7 @@ require './test/test_helper.rb'
 require './lib/gameboard.rb'
 require './lib/ship.rb'
 require './lib/space.rb'
+require './lib/computer.rb'
 
 class GameBoardTest < Minitest::Test
   def test_it_exists
@@ -21,7 +22,7 @@ class GameBoardTest < Minitest::Test
     gameboard = GameBoard.new
     space = Space.new
     assert_equal '', gameboard.ship_placed
-  end 
+  end
 
 
 
