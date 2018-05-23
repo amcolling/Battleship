@@ -5,7 +5,10 @@ class Player
     @guess = gets.chomp
   end
 
-  
+  def fire_at
+    if @guess == A1[0] 
+
+
 
 
 

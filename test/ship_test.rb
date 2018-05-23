@@ -11,6 +11,7 @@ class ShipTest < Minitest::Test
 
   def test_count_ship_pegs
     ship = Ship.new("Carrier")
+    space = Space.new('A1')
     assert ship.destroyer.length <= 2
     assert ship.carrier.length <= 3
     assert_instance_of Array, ship.carrier

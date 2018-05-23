@@ -6,3 +6,4 @@ require './lib/space.rb'
 require './lib/battleship.rb'
 
 class BattleshipTest < Minitest::Test
+end

@@ -1,4 +1,3 @@
-require 'pry'
 class Ship
   attr_reader :carrier,
               :destroyer
@@ -8,12 +7,17 @@ class Ship
     @destroyer = ship
   end
 
+  def ship_placed
+    space.position
 
 
 
 
 
-  
+
+
+
+
 
 
 

@@ -17,6 +17,13 @@ class GameBoardTest < Minitest::Test
     assert_equal "", gameboard.gameboard_display
   end
 
+  def test_ship_placed
+    gameboard = GameBoard.new
+    space = Space.new
+    assert_equal '', gameboard.ship_placed
+  end 
+
+
 
 
 end
