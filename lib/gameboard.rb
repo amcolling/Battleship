@@ -1,7 +1,6 @@
 class GameBoard
   attr_reader :grid
 
-
   def initialize
     @A1 =  Space.new("A1")
     @A2 =  Space.new("A2")

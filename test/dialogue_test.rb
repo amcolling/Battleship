@@ -7,5 +7,4 @@ class DialogueTest < Minitest::Test
     dialogue = Dialogue.new
     assert_instance_of Dialogue, dialogue
   end
-
 end
