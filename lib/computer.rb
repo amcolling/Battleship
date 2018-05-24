@@ -21,15 +21,13 @@ class Computer
       end
     end
   end
-end
 
+  def check_validity(pos)
+    valid_position_array.include?(pos)
+  end
 
-
-
-def check_validity(pos)
-  valid_position_array.include?(pos)
-end
-def random_pick
-  gameboard = GameBoard.new
-  gameboard.grid.sample
+  def random_pick
+    gameboard = GameBoard.new
+    gameboard.grid.sample
+  end
 end

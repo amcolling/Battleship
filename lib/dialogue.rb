@@ -31,5 +31,5 @@ class Dialogue
   end
 end
 
-dialogue = Dialogue.new
-p dialogue.run_dialogue
+# dialogue = Dialogue.new
+# p dialogue.run_dialogue
