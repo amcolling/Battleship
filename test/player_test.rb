@@ -5,11 +5,11 @@ require './lib/player.rb'
 
 class PlayerTest < Minitest::Test
   def test_it_exists
-  player = Player.new("B1, B2")
-  dialogue = Dialogue.new
-  assert_instance_of Player, player
+    player = Player.new("B1, B2")
+    dialogue = Dialogue.new
+    assert_instance_of Player, player
   end
-
+  
   def test_player_has_a_guess
     player = Player.new("B1, B2")
     dialogue = Dialogue.new

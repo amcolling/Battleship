@@ -3,7 +3,7 @@ class Computer
   def initialize
     @ship_position_array = []
   end
-
+  
   def correct_positions
     until ship_position_array.length == 2
       ship_position_array << first_pos
