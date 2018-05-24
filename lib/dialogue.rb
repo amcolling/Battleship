@@ -30,3 +30,6 @@ class Dialogue
     end
   end
 end
+
+dialogue = Dialogue.new
+p dialogue.run_dialogue

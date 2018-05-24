@@ -19,7 +19,7 @@ class PlayerTest < Minitest::Test
   def test_convert_user_input_to_a_string
     player = Player.new("B1, B2")
     dialogue = Dialogue.new
-    assert_equal "", player.convert_user_input_to_an_array
+    assert_equal ["B1,", "B2"], player.convert_user_input_to_an_array
   end
 
 

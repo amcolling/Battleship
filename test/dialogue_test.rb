@@ -1,5 +1,6 @@
 require './lib/dialogue.rb'
 require './test/test_helper.rb'
+require './lib/player.rb'
 
 class DialogueTest < Minitest::Test
   def test_it_exists

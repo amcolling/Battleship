@@ -24,8 +24,4 @@ class ShipTest < Minitest::Test
     ship = Ship.new(3)
     assert_equal false, ship.ship_sunk?
   end
-
-
-
-
 end
